@@ -1,0 +1,20 @@
+{
+    "name": "Make me No.1 at GANGAS",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "on GANGAS mirror site, this remakes ranking, and make you No.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://tanon710.s500.xrea.com/typewell_mirror/rank/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+
+    "permissions": [
+        "activeTab"
+    ]
+}
